@@ -20,10 +20,12 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - future >=0.15.0
+    - inflection >= 0.3.1
     - pip
     - python
   run:
     - future >=0.15.0
+    - inflection >= 0.3.1
     - python
 
 test:
