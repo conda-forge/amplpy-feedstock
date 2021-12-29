@@ -20,10 +20,12 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - future >=0.15.0
+    - inflection >=0.3.1
     - pip
     - python
   run:
     - future >=0.15.0
+    - inflection >=0.3.1
     - python
 
 test:
@@ -32,7 +34,7 @@ test:
 
 about:
   home: http://ampl.com/
-  license: BSD-3
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: Python API for AMPL
