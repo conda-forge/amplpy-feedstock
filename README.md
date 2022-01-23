@@ -3,7 +3,7 @@ About amplpy
 
 Home: http://ampl.com/
 
-Package license: BSD-3
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amplpy-feedstock/blob/master/LICENSE.txt)
 
