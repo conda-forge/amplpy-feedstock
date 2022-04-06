@@ -1,4 +1,5 @@
 provider:
   win: azure
   linux_aarch64: default
+build_with_mambabuild: false
 conda_forge_output_validation: true
