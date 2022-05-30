@@ -25,7 +25,6 @@ requirements:
   run:
     - future >=0.15.0
     - python
-    - ampltools
 
 test:
   imports:
