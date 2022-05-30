@@ -1,3 +1,3 @@
 #!/bin/bash
-python -m pip install ampltools
+sed -i~ 's/, "ampltools"//g' setup.py
 python -m pip install . --no-deps --ignore-installed -vv
