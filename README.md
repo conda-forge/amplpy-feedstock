@@ -1,11 +1,11 @@
-About amplpy
-============
+About amplpy-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amplpy-feedstock/blob/main/LICENSE.txt)
 
 Home: http://ampl.com/
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/amplpy-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python API for AMPL
 
