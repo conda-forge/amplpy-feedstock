@@ -1,5 +1,5 @@
 {% set name = "amplpy" %}
-{% set version = "0.9.2" %}
+{% set version = "0.9.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e0e4192d7284b04d3465a097679ae6b56eadfe788c63a09d871e75596d00f012
+  sha256: 9ed43bf9483fd2d1725d75147d54b6084734daeb5bd9f07556f22c4144f3c386
 
 build:
   number: 0
