@@ -25,6 +25,7 @@ requirements:
     - future >=0.15.0
     - pip
     - python
+    - setuptools
   run:
     - future >=0.15.0
     - python
