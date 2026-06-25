@@ -1,5 +1,5 @@
 {% set name = "amplpy" %}
-{% set version = "0.14.0" %}
+{% set version = "0.17.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bdc8c6ef7bb9020591f24cc596a251af61aa309c900a620f341c55eea8978dbf
+  sha256: e6c582cb9a268a78eec9168507d80236412143df08c97ac5f416f1d0d38289e6
 
 build:
-  number: 1
+  number: 0
   skip: true  # [python_impl == "pypy"]
 #  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
 
